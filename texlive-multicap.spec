@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/multicap
+# catalog-date 2006-12-15 15:26:27 +0100
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-multicap
 Version:	20061215
 Release:	1
@@ -42,6 +48,7 @@ not.
 %doc %{_texmfdistdir}/doc/latex/multicap/multicap.pdf
 #- source
 %doc %{_texmfdistdir}/source/latex/multicap/multicap.dtx
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -52,3 +59,5 @@ not.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
