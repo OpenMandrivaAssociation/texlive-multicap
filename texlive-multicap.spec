@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-multicap
 Version:	20061215
-Release:	1
+Release:	2
 Summary:	Format captions inside multicols
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/multicap
