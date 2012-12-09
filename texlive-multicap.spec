@@ -50,3 +50,17 @@ not.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20061215-2
++ Revision: 754190
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20061215-1
++ Revision: 719084
+- texlive-multicap
+- texlive-multicap
+- texlive-multicap
+- texlive-multicap
+
